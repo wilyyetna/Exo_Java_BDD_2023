@@ -98,3 +98,12 @@
     } else if ("Vider le tableau".equals(action)) {
         tableau.clear();
         message = "🧹 Tableau vidé avec succès.";
+    }
+%>
+
+<div class="message"><%= message %></div>
+
+<p><a href="index.html">Retour au sommaire</a></p>
+</body>
+</html>
+
